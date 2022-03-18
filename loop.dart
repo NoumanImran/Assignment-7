@@ -62,4 +62,48 @@ print('Sum is $sum');
 
 //Program # 4
 
+  int c = 1;
+  while(c<=5)
+  {
+    print("$c ${c*c}");
+    c++;
+  }
+  
+//OUTPUT:
+// 1 1
+// 2 4
+// 3 9
+// 4 16
+// 5 25
+  
+  
+//Program # 5
+  
+  int c = 1;
+  print('Enter Number');
+  int? n = int.parse(stdin.readLineSync()!);
+
+  while(c<=10)
+  {
+    print("$n * $c = ${n*c}");
+    c=c+1;
+  }
+ 
+  
+//OUTPUT:
+// Enter Number
+// 5
+// 5 * 1 = 5
+// 5 * 2 = 10
+// 5 * 3 = 15
+// 5 * 4 = 20
+// 5 * 5 = 25
+// 5 * 6 = 30
+// 5 * 7 = 35
+// 5 * 8 = 40
+// 5 * 9 = 45
+// 5 * 10 = 50
+  
+//Program # 6
+
 }
